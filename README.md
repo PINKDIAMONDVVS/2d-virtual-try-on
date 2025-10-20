@@ -2,9 +2,22 @@
 
 An interactive 2D virtual clothing try-on application using MediaPipe pose detection and OpenCV. Control clothing selection with hand gestures in real-time!
 
+## Description
+
+This project demonstrates a computer vision-based virtual try-on system that allows users to virtually "wear" different clothing items using their webcam. The application uses MediaPipe's pose detection to track body landmarks and overlays 2D clothing images onto the user in real-time. 
+
+Key features include:
+- **Hand Gesture Control**: Navigate and select clothing items by hovering your index finger over virtual buttons
+- **Real-time Pose Tracking**: Accurately maps clothing to body position and size using MediaPipe Holistic
+- **Multiple Clothing Options**: Browse through various designer clothing items with brand names and prices
+- **Responsive Overlay**: Clothing automatically adjusts to your body size and movements
+- **Visual Feedback**: Interactive UI with hover effects and a visual indicator on your fingertip
+
 ## Demo
 
-![Demo GIF](demo.gif) <!-- You should add a demo GIF or screenshot here -->
+[![2D Virtual Try-On Demo](https://img.youtube.com/vi/4Fs5UF5xMY0/0.jpg)](https://youtu.be/4Fs5UF5xMY0)
+
+**[Watch the full demo on YouTube](https://youtu.be/4Fs5UF5xMY0)**
 
 ## Features
 
@@ -55,16 +68,13 @@ pip install -r requirements.txt
 ├── .gitignore            # Git ignore file
 ├── CLOTHING_PREPARATION.md # Guide for preparing custom clothing images
 │
-├── assets/               # Clothing images folder (included)
-│   ├── vest1.png         # ENITRE STUDIOS vest
-│   ├── vest2.png         # ISA BOULDER vest
-│   ├── vest3.png         # RICK OWENS vest
-│   ├── vest4.png         # BORIS BIDJAN vest
-│   ├── bra1.png          # HUNZA G bra
-│   └── bra2.png          # VERSACE bra
-│
-└── demo/                 # Demo images/GIFs
-    └── demo.gif
+└── assets/               # Clothing images folder (included)
+    ├── vest1.png         # ENITRE STUDIOS vest
+    ├── vest2.png         # ISA BOULDER vest
+    ├── vest3.png         # RICK OWENS vest
+    ├── vest4.png         # BORIS BIDJAN vest
+    ├── bra1.png          # HUNZA G bra
+    └── bra2.png          # VERSACE bra
 ```
 
 ## Quick Start
@@ -143,7 +153,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [PINKDIAMONDVVS](mailto:chenjunyi531@gmail.com)
 
 ## Future Improvements
 
@@ -153,5 +163,6 @@ Your Name - [your.email@example.com](mailto:your.email@example.com)
 - [ ] Support for full-body clothing
 - [ ] Save/export try-on images
 - [ ] Multiple clothing layers support
+
 
 
