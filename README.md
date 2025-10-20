@@ -24,7 +24,7 @@ An interactive 2D virtual clothing try-on application using MediaPipe pose detec
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/2d-virtual-try-on.git
+git clone https://github.com/PINKDIAMONDVVS/2d-virtual-try-on.git
 cd 2d-virtual-try-on
 ```
 
@@ -153,3 +153,4 @@ Your Name - [your.email@example.com](mailto:your.email@example.com)
 - [ ] Support for full-body clothing
 - [ ] Save/export try-on images
 - [ ] Multiple clothing layers support
+
