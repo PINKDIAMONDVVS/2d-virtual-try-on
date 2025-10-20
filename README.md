@@ -1,6 +1,6 @@
-# Virtual Try-On with Hand Gesture Control
+# 2D Virtual Try-On
 
-An interactive virtual clothing try-on application using MediaPipe pose detection and OpenCV. Control clothing selection with hand gestures in real-time!
+An interactive 2D virtual clothing try-on application using MediaPipe pose detection and OpenCV. Control clothing selection with hand gestures in real-time!
 
 ## Demo
 
@@ -24,8 +24,8 @@ An interactive virtual clothing try-on application using MediaPipe pose detectio
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/virtual-try-on.git
-cd virtual-try-on
+git clone https://github.com/yourusername/2d-virtual-try-on.git
+cd 2d-virtual-try-on
 ```
 
 2. Create a virtual environment (recommended):
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-virtual-try-on/
+2d-virtual-try-on/
 │
 ├── main.py                 # Main application script
 ├── requirements.txt        # Python dependencies
@@ -71,8 +71,8 @@ virtual-try-on/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/virtual-try-on.git
-cd virtual-try-on
+git clone https://github.com/yourusername/2d-virtual-try-on.git
+cd 2d-virtual-try-on
 
 # Install dependencies
 pip install -r requirements.txt
