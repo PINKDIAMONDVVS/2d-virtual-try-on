@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/2d-virtual-try-on.git
+git clone https://github.com/PINKDIAMONDVVS/2d-virtual-try-on.git
 cd 2d-virtual-try-on
 
 # Install dependencies
@@ -153,4 +153,5 @@ Your Name - [your.email@example.com](mailto:your.email@example.com)
 - [ ] Support for full-body clothing
 - [ ] Save/export try-on images
 - [ ] Multiple clothing layers support
+
 
